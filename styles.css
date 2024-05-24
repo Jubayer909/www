@@ -71,7 +71,7 @@ h1 {
 .social-icons a {
     color: #e5e5e5;
     font-size: 2em;
-    margin: 10px 20px;
+    margin: 10px 15px; /* Adjusted for more spacing */
     transition: transform 0.3s, color 0.3s;
 }
 
@@ -95,6 +95,11 @@ h1 {
     margin: 10px;
     flex-basis: calc(50% - 20px);
     box-sizing: border-box;
+}
+
+.info-box:nth-child(1) {
+    flex-basis: 100%;
+    text-align: center;
 }
 
 .info-box h3 {
